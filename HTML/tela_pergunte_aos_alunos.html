@@ -9,16 +9,19 @@
         <meta name='viewport' content="width=device-width, initial-scale=1">
         <link href="../CSS/reset.css" rel="stylesheet">
         <link rel="stylesheet" href="../CSS/tela_pergunte_aos_alunos.css">
+        <script src="../JS/botao_voltar.js"></script>
+        <script src="../JS/pega_pesquisa.js"></script>
     </head>
     <body>
         <header>
-            <a href="tela_perfil.html">                
-            <img src="../img/botão_de_perfil.png" alt="botão de perfil" class="perfil">
+            <img class = 'img_voltar' src="../img/voltar.png" alt = 'botão de voltar'>
+            
+            <form action="tela_results_facul.html" method="get">
+                <input class="pesquisa" type="text" name="nome" /><br />
+            </form>
+            <a href="index.html">
+            <img class= 'img_home' src="../img/botão_de_home.png" alt = 'botão de home'>
             </a>
-            <input type="text" id="busca" name="busca">
-            <a href="index.html">    
-            <img src="../img/botão_de_home.png" alt="botão de home" class="home">
-            </a> 
         </header>
         <main>
             <h1>

@@ -9,16 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../CSS/reset.css" rel="stylesheet">
     <link href="../CSS/tela_amigo.css" rel="stylesheet">
+    <script src="../JS/botao_voltar.js"></script>
+    <script src="../JS/pega_pesquisa.js"></script>
     <title>Amigo</title>
 </head>
 <body>
     <header>
+        <img class = 'img_voltar' src="../img/voltar.png" alt = 'botão de voltar'>
+        <form action="tela_results_facul.html" method="get">
+            <input class="pesquisa" type="text" name="nome" /><br />
+        </form>
         <a href="index.html">
-        <img class='img_header' src="../img/botão_de_perfil.png"  alt="perfil" >
-        </a>
-        <input type="text" name="nome"/>
-        <a href="index.html">
-        <img class='img_header' src="../img/botão_de_home.png" alt = 'botão de home'>
+        <img class= 'img_home' src="../img/botão_de_home.png" alt = 'botão de home'>
         </a>
     </header>
     <main>
@@ -30,8 +32,8 @@
                 </div>
                 <p> descrição do amigo descrição do amigo descrição do amigo descrição do amigo</p>
             </li>
-            <li><img class='img_lista' src= ../img/livro.png alt = 'imagem do livro'> <a href="../HTML/erro.html"> Materiais compartilhados</a></li>
-            <li><img class='img_lista' src= ../img/Balão.png alt = 'imagem do mensagem'> <a href="../HTML/tela_mandar_mensagem.html"> Mensagem</a></li>
+            <li><img class='img_lista' src= ../img/livro.png alt = 'imagem do livro'> <a class="itens" href="../HTML/erro.html"> Materiais compartilhados</a></li>
+            <li><img class='img_lista' src= ../img/Balão.png alt = 'imagem do mensagem'> <a class="itens" href="../HTML/tela_mandar_mensagem.html"> Mensagem</a></li>
         </ul>
     </main>
     <footer></footer>

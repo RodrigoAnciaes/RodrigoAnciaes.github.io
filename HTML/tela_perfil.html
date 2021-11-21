@@ -10,20 +10,25 @@
     <title>tela perfil</title>
     <link href="../CSS/reset.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/tela_perfil.css">
+    <script src="../JS/botao_voltar.js"></script>
+    <script src="../JS/pega_pesquisa.js"></script>
     </head>
 
     <body>
         <header>
-            <img src="../img/botão_de_perfil.png" alt="botão de perfil">
-            <input type="text" name="nome" />
-            <a href="index.html">    
-            <img src="../img/botão_de_home.png" alt="botão de home">
+            <img class = 'img_voltar' src="../img/voltar.png" alt = 'botão de voltar'>
+            
+            <form action="tela_results_facul.html" method="get">
+                <input class="pesquisa" type="text" name="nome" /><br />
+            </form>
+            <a href="index.html">
+            <img class= 'img_home' src="../img/botão_de_home.png" alt = 'botão de home'>
             </a>
         </header>
         <main>
             <div class="perfil">
                 <img src="../img/empty.jpg" alt="imagem de perfil">
-                <div>
+                <div class="infoperfil">
                     <h1>  Nome e Sobrenome <a href="erro.html">editar</a></h1>
                     <ul>
                         <li>email:</li>
@@ -31,7 +36,7 @@
                     </ul>
                 </div>
             </div>
-            <ul>
+            <ul class="bloco">
                 <li class="materiais"><img src="../img/livro.png" alt = 'icone livro'> <a href="erro.html"> Materiais compartilhados</a></li>
                 <li class="amigos"><img src="../img/amigos.png" alt = 'icone amigos'> <a href="tela_amigo.html">Amigos</a></li>
             </ul>

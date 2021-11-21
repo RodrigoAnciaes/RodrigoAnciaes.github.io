@@ -10,14 +10,22 @@
         <title>Tela Faculdade</title>
         <link href="../CSS/reset.css" rel="stylesheet">
         <link rel="stylesheet" href="../CSS/tela_facul.txt.css">
+        <script src="../JS/botao_voltar.js"></script>
+        <script src="../JS/selecionar.js"></script>
+        <script src="../JS/pega_pesquisa.js"></script>
     </head>
 
         <body>
-        <header> 
-            <a href="index.html"> 
-            <img src= ../img/botão_de_home.png alt = 'botão home'>
-            </a>
-        </header>
+            <header>
+                <img class = 'img_voltar' src="../img/voltar.png" alt = 'botão de voltar'>
+                
+                <form action="tela_results_facul.html" method="get">
+                    <input class="pesquisa" type="text" name="nome" /><br />
+                </form>
+                <a href="index.html">
+                <img class= 'img_home' src="../img/botão_de_home.png" alt = 'botão de home'>
+                </a>
+            </header>
 
         <h1>
                 Faculdade X
@@ -34,7 +42,7 @@
             <li><a href="erro.html">simulados e Provas</a></li>
         </ul>
         <ul>
-            <li><a href="erro.html">Informações Adicionais</a></li>
+            <li class='selecionar'>Salvar Faculdade</li>
 
             <li><a href="tela_mais_inf_eng.html">Info Graduação</a></li>
         </ul>
