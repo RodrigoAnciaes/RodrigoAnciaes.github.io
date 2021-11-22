@@ -11,6 +11,7 @@
     <link href="../CSS/reset.css" rel="stylesheet">
     <link  href="../CSS/style_1.css" rel="stylesheet">
     <script src="../JS/pega_pesquisa.js"></script>
+    <script src="../JS/adicionar_atividade.js"></script>
     </head>
 
     <body>
@@ -32,6 +33,24 @@
                 <li>14:30 às 15:00: APS FisMov</li>
                 
             </ul>
+
+            <form class="editor" action="Agendamento" method="get">
+                <h1>Nova atividade</h1>
+                Nome: <input class="nome_at" type="text" name="nome" /><br />
+                Dia: <input class="data_at" type="date" name="dia" /><br />
+                Horário de inicio: <input class="hora_in" type="time" name="Horário" /><br />
+                Horário de termino: <input class="hora_te" type="time" name="Horário" /><br />
+                <ul class="sel">
+                    <li class="ca">cancelar</li>
+                    <li class="ca">adicionar</li>
+                </ul>
+            </form>
+
+            <ul class='agendada'>
+                <li class="texto_agendada"></li>
+                <li class="fechar"> Ok </li>
+            </ul>
+
 
             <ul class = 'bloco'>
                 <li class = 'lista'><a href="../HTML/erro.html"><img class='img_lista' src= ../img/livro.png alt = 'icone livro'></a> <a href="../HTML/erro.html">Materiais de Estudo</a></li>
