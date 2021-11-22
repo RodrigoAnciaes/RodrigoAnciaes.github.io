@@ -131,3 +131,7 @@ a{  text-decoration: none;
     padding: 1rem;
     color: white;
 }
+
+.bloqueio{
+    display: none;
+}

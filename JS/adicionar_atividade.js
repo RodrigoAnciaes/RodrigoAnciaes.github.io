@@ -27,6 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     ca = document.querySelectorAll('.ca')
 
+    submit = document.querySelector('input[type="submit"]')
+
+    submit.disabled = true
+
     cancelar = ca[0]
 
     confirmar = ca[1]
