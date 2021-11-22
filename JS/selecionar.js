@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             state_b2 = 1
         }
         else {
-            b_c2.style.borderColor = "darkgray"
+            b_c2.style.borderColor = "black"
             b_c2.innerHTML = 'Salvar Facauldade'
             state_b2 = 0
         }
