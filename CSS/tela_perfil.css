@@ -136,8 +136,16 @@ a{text-decoration: none;
 }
 
 .nome,.email{margin:0.5rem;
-    justify-content: center;}
+    justify-content: center;
+}
 
-h2{font-size: 1.8rem;
+h2{font-size: 1.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
     font-weight: bolder;
     font-family: 'Roboto Slab', 'Zilla Slab', serif; }
+
+.seu_email{
+    padding-top: 0.3rem;
+}
