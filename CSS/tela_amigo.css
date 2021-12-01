@@ -44,7 +44,7 @@ li{
     display: flex;
     flex-direction: row;
     border-bottom: .1rem solid black;
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding-bottom: 2rem;
     font-family: 'Roboto Slab', 'Zilla Slab', serif;
 }
@@ -54,20 +54,22 @@ h1{
     font-size: 2rem;
 }
 
-p{
+p{  
+    padding-left: 2rem;
+    padding-right: 2rem;
     font-family: 'Fira Sans', 'Fira Sans Condensed', sans-serif;
 }
 
 li #amigo{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: row;
-    margin-bottom: .5rem;
 }
 .primeiro{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 main {display: flex;
@@ -80,7 +82,9 @@ height: 100%;}
 
 
 .img_amigo{height: 1.8rem;
-    width: 1.8rem;}
+    width: 1.8rem;
+    border-radius: 50%;
+}
 
 .img_lista{padding-left: 2rem;
     height: 3rem;
@@ -90,6 +94,10 @@ a{text-decoration: none;
   color: inherit;}
 
 .itens{
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding-left: 1rem;
   }
+
+.erro{
+    text-align: center;
+}

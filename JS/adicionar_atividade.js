@@ -7,7 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     today = yyyy + '-' + mm + '-' + dd;
 
-    atividades = document.querySelector('.atividades')
+    atividades = document.querySelector('.alterar')
+
+    vazio = document.querySelector('.atividades')
 
     editor = document.querySelector('.editor')
 
@@ -48,15 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
 
     confirmar.addEventListener('click', function(event) {
-        console.log(data.value)
-        console.log(today)
         if (data.value === today){
         
         conteudo = inicio.value + ' às ' + termino.value + ": " + nome.value
         editor.style.display = 'none'
         new_at = document.createElement('li')
         new_at.innerHTML = conteudo
-        atividades.append(new_at)
+        vazio.append(new_at)
         }
 
         else{

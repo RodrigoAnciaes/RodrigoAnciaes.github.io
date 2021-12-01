@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../CSS/tela_perfil.css">
     <script src="../JS/botao_voltar.js"></script>
     <script src="../JS/pega_pesquisa.js"></script>
+    <script src="../JS/editar_perfil.js"></script>
     </head>
 
     <body>
@@ -26,19 +27,29 @@
             </a>
         </header>
         <main>
+            <form class="editor" method="get">
+                <h2>Editar Perfil</h2>
+                Nome: <input class="nome" type="text" name="nome" /><br />
+                email: <input class="email" type="email" name="email" /><br />
+                <input class="bloqueio" type="submit">
+                <ul class="sel">
+                    <li class="ca">cancelar</li>
+                    <li class="ca">adicionar</li>
+                </ul>
+            </form>
             <div class="perfil">
                 <img src="../img/empty.jpg" alt="imagem de perfil">
                 <div class="infoperfil">
-                    <h1>  Nome e Sobrenome <a href="erro.html">editar</a></h1>
+                    <h1>  Nome e Sobrenome</h1> <h2 class = alterar>editar</h2>
                     <ul>
                         <li>email:</li>
-                        <li>119999-1234</li>
+                        <li class = 'seu_email'>119999-1234</li>
                     </ul>
                 </div>
             </div>
             <ul class="bloco">
                 <li class="materiais"><a href="erro.html"><img src="../img/livro.png" alt = 'icone livro'></a> <a href="erro.html"> Materiais compartilhados</a></li>
-                <li class="amigos"><a href="tela_amigo.html"><img src="../img/amigos.png" alt = 'icone amigos'></a> <a href="tela_amigo.html">Amigos</a></li>
+                <li class="amigos"><a href="Lista_amigos.html"><img src="../img/amigos.png" alt = 'icone amigos'></a> <a href="Lista_amigos.html">Amigos</a></li>
             </ul>
         </main>
         <footer></footer>

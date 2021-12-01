@@ -70,7 +70,7 @@ h1 {
     border-bottom: .2rem hidden;
     padding-bottom: 2rem;
     padding-top: 0.75rem;
-    background-color: #4DF7E6;
+    border-bottom: solid black .1rem;
     
 }
 

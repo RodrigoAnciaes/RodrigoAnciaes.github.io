@@ -80,7 +80,7 @@ input{
     padding-left: 1rem;
 }
 .materiais a{
-    font-size: 2rem;
+    font-size: 1.3rem;
     margin-left: 2rem;
 }
 .amigos{
@@ -97,7 +97,7 @@ input{
     width: 5rem;
 }
 .amigos a{
-    font-size: 2rem;
+    font-size: 1.3rem;
     margin-left: 2rem;
 }
 
@@ -107,3 +107,37 @@ li{
 
 a{text-decoration: none;
   color: inherit;}
+
+  .editor{
+    display: none;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 20rem;
+    background-color: #004888;
+    padding: 1rem;
+    color: white;
+}
+
+.ca{
+    position: relative;
+    display: inline;
+    justify-content: space-between;
+}
+
+.sel{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloqueio{
+    display: none;
+}
+
+.nome,.email{margin:0.5rem;
+    justify-content: center;}
+
+h2{font-size: 1.8rem;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', 'Zilla Slab', serif; }

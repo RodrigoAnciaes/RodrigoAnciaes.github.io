@@ -11,6 +11,7 @@
         <meta name = "viewport" content="width=device-width,initial-scale = 1.0">
         <script src="../JS/botao_voltar.js"></script>
         <script src="../JS/pega_pesquisa.js"></script>
+        <script src="../JS/agendou.js"></script>
     
     </head>
     <body>
@@ -25,9 +26,7 @@
             </a>
         </header>
         <main class="bloco">
-            <h2>
-                Agendamento
-            </h2>
+            <h2>Agendamento</h2>
             <form class="bloco" action="Agendamento" method="get">
                 Nome: <input type="text" name="nome" /><br />
                 Dia: <input type="date" name="dia" /><br />
@@ -35,6 +34,12 @@
                 Assunto: <textarea id="subject" name="subject" placeholder="Escreva Aqui.." style="height: 100px;"></textarea>
             </form>
             <input class = 'enviar' type="submit" value="Enviar" />
+
+            <ul class='agendada'>
+                <li class="texto_agendada"></li>
+                <li class="fechar"> Ok </li>
+            </ul>
+
         </main>
     </body>
 </html>
