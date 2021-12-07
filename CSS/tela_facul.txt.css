@@ -8,7 +8,7 @@ body,html {
 
 li {
     display: flex;
-    margin: 1rem;
+    margin: 2rem;
     border: .1rem solid black;
     padding: .5rem .5rem .5rem .5rem;
     background-size: 2rem 2rem;
@@ -58,8 +58,6 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
 
 h1 {
