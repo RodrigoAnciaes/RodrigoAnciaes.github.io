@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Resultado da pesquisa</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
-        <meta name='viewport' content="width=device-width, initial-scale=1">
-        <link href="../CSS/reset.css" rel="stylesheet">
-        <link rel="stylesheet" href="../CSS/tela_resultados_faculs.css">
+        <title>Mandar Mensagem</title>
+        <link rel = 'stylesheet' href="../CSS/reset.css">
+        <link rel="stylesheet" href="../CSS/style_11.css">
+        <meta name = "viewport" content="width=device-width,initial-scale = 1.0">
         <script src="../JS/botao_voltar.js"></script>
         <script src="../JS/pega_pesquisa.js"></script>
-        <script src="../JS/pega_amigos.js"></script>
+        <script src="../JS/agendou.js"></script>
 
     </head>
     <body>
@@ -25,26 +25,18 @@
             <img class= 'img_home' src="../img/botão_de_home.png" alt = 'botão de home'>
             </a>
         </header>
-        <main>
-            <h1>Faculdades Salvas</h1>
-            <table class='bloco'>
-                <tr class="results">
-                    <th><img src="../img/insper.jpg" alt="Faculdade"></th>
-                    <th><a href="tela_facul.html">Insper</a></th>
-                </tr>
-                <tr class="results">
-                    <th><img src="../img/usp.jpg"  alt="Faculdade"></th>
-                    <th><a href="tela_facul.html">USP</a></th> 
-                </tr>
-                <tr class="results">
-                    <th><img src="../img/unicamp.png" alt="Faculdade"></th>
-                    <th><a href="tela_facul.html">Unicamp</a></th> 
-                </tr>
-                <tr class="results">
-                    <th><img src="../img/mit-campus.jpg" alt="Faculdade"></th>
-                    <th><a href="tela_facul.html">MIT</a></th> 
-                </tr>
-            </table>
+        <main class="bloco">
+            <h2>Mandar Mensagem</h2>
+            <form action="Mensagem" method="get"></form>
+                Assunto: <input class="texto" type="text" name = "assunto" /><br />
+                Mensagem: <textarea  id="subject" name="subject" placeholder="Escreva Aqui..." style="height:100px"></textarea>
+            <input class='enviar' type="submit" value="Enviar" />
+
+            <ul class='agendada'>
+                <li class="texto_agendada"></li>
+                <li class="fechar"> Ok </li>
+            </ul>
+
         </main>
     </body>
 </html>

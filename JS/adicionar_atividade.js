@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     today = yyyy + '-' + mm + '-' + dd;
 
+    h1 = document.querySelector('h1')
+
+    h1.innerHTML = 'Dia ' + dd + ' do mês ' + mm + ' de ' + yyyy
+
     atividades = document.querySelector('.alterar')
 
     vazio = document.querySelector('.atividades')
